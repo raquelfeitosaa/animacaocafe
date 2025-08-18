@@ -6,5 +6,7 @@
 Apesar de achar que tenho pouca criatividade, sigo tentando e pondo minha imaginação pra jogo. ✨</p>
 ---
 *** 🎀 Demonstração abaixo:***
-<img src="video/vd3.mp4" style="widht: 150px">
+<video width="640" height="360" autoplay loop muted>
+  <source src="video/vd3.mp4" type="video/mp4">
+</video>
 
