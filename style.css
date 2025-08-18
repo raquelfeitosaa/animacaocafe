@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #eee;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.caixa-fundo {
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 77%, rgba(255, 155, 87, 1) 100%);
+    width: 100%;
+    height: 100vh;
+    /* visibility: hidden; */
+}
+
+.caixa-inicial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    font-size: 45px;
+}
+
+.textos-destaque {
+    color: #ffc59e;
+}
+
+.imagem-cafe-sorrindo {
+    width: 450px;
+    animation: balanco 3s infinite ease-in-out;
+}
+
+@keyframes balanco {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
+}
+
+
+.botao-cafe-sim,
+.botao-cafe-nao {
+    background-color: #ffc59e;
+    color: #eee;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px 15px;
+}
+
+.botao-cafe-sim {
+    position: absolute;
+    left: 45px;
+}
+
+.botao-cafe-nao {
+    position: absolute;
+    right: 45px;
+}
+
+.botao-cafe-sim:hover,
+.botao-cafe-nao:hover {
+    cursor: pointer;
+    box-shadow: 0 0 75px #ffb07a44;
+}
+
+.botao-cafe-sim:active,
+.botao-cafe-nao:active {
+    background-color: #ff9b57;
+    color: #636363;
+}
+
+.caixa-não {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 77%, rgba(255, 155, 87, 1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.caixa-não-quero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.floke-triste {
+    width: 450px;
+    animation: balanco 3s infinite ease-in-out;
+}
+
+.caixa-sim {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 77%, rgba(255, 155, 87, 1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.caixa-sim-quero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.xicara-triste {
+    width: 450px;
+    animation: balanco 3s infinite ease-in-out;
+}

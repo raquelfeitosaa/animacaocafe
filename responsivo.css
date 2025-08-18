@@ -1,0 +1,46 @@
+@media (max-width: 950px) {
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .botao-cafe-sim {
+        left: auto;
+        top: 75%;
+    }
+
+    .botao-cafe-nao {
+        right: auto;
+        top: 80%;
+        margin-top: 15px;
+    }
+
+    .imagem-cafe-sorrindo {
+        width: 350px;
+    }
+
+    .xicara-triste {
+        display: flex;
+        position: absolute;
+        top: 25%;
+        width: 350px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        top: 60%;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    .floke-triste {
+        display: flex;
+        position: absolute;
+        top: 25%;
+        width: 550px;
+    }
+
+}
