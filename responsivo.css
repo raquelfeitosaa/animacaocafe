@@ -16,14 +16,14 @@
     }
 
     .imagem-cafe-sorrindo {
-        width: 350px;
+        width: 250px;
     }
 
     .xicara-triste {
         display: flex;
         position: absolute;
         top: 25%;
-        width: 350px;
+        width: 250px;
     }
 
     h2 {
@@ -40,7 +40,7 @@
         display: flex;
         position: absolute;
         top: 25%;
-        width: 550px;
+        width: 350px;
     }
 
 }
